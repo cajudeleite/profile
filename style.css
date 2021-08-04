@@ -1,0 +1,108 @@
+h1 {
+  font-family: 'Miriam Libre', sans-serif;
+  color: #418889;
+  margin-top: -10px;
+}
+
+h2 {
+  font-family: 'Jaldi', sans-serif;
+  color: #a36f64;
+  margin-top: -10px;
+}
+
+a {
+  color: #f3c6c0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a36f64;
+  text-decoration: wavy;
+}
+
+p {
+  font-family: 'Inder', sans-serif;
+  color: #606162;
+  letter-spacing: -0.5px;
+  font-size: large;
+}
+
+ul {
+  color: #606162;
+  list-style: none;
+  padding: 0;
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: -10px;
+}
+
+ul li {
+  display: inline;
+}
+
+body {
+  background-image: url(https://media.tenor.com/images/a1505c6e6d37aa2b7c5953741c0177dc/tenor.gif);
+  background-size: 1500px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  margin-bottom: 20px;
+}
+
+.social {
+  color: #a36f64;
+}
+
+.social:hover {
+  color: #606162;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#card {
+   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+  background-color: #f3c6c0;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+#btn {
+  background-color: #418889;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #606162;
+  color: #f3c6c0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
